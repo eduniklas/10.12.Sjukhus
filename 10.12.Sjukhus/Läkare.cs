@@ -20,12 +20,12 @@ namespace _10._12.Sjukhus
         {
             if (skrivaRecept == true)
             {
-                Console.WriteLine(Role + " " + FirstName + " " + LastName + " Skriver ut Ritalin");
+                Console.WriteLine(Role + " " + FirstName + " " + LastName + " skriver ut Ritalin");
             }
         }
         public override void PrintInfo()
         {
-            Console.WriteLine(FirstName + " " + LastName + ": " + Role + "\nMånadslön: " + Salary + " Arbetstid/vecka: " + WorkTime);
+            Console.WriteLine(FirstName + " " + LastName + ": " + Role + "\nMånadslön: " + Salary + "kr. Arbetstid/vecka: " + WorkTime + "timmar");
         }
     }
 }

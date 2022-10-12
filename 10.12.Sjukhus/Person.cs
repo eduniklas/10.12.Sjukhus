@@ -11,7 +11,6 @@ namespace _10._12.Sjukhus
         public int Salary;
         public int WorkTime;
         public string Role;
-        public string Status;
         public abstract void PrintInfo();
     }
     

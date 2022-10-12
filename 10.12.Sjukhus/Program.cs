@@ -6,7 +6,7 @@ namespace _10._12.Sjukhus
     {
         static void Main(string[] args)
         {
-            Läkare L1 = new Läkare("Kennet", "Gunnarsson", "Läkare", );
+            Läkare L1 = new Läkare("Kennet", "Gunnarsson", "Läkare", 50, 65000);
             L1.PrintInfo();
             L1.skrivaRecept = true;
             L1.SkrivaRecept();
@@ -20,8 +20,9 @@ namespace _10._12.Sjukhus
             Patient P1 = new Patient("Gunn", "Svensson", "Patient");
             P1.sickness = "Cancer";
             P1.status = "Kritiskt";
-            P1.PatientStatus();
             P1.PrintInfo();
+            P1.PatientStatus();
+            
         }
     }
 }

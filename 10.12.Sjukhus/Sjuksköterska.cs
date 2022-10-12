@@ -18,16 +18,16 @@ namespace _10._12.Sjukhus
         {
             if (takeBlood == true)
             {
-                Console.WriteLine(Role + " " + LastName + " Tar ett blodprov");
+                Console.WriteLine(Role + " " + LastName + " tar ett blodprov");
             }
         }
         public void YearlySalary()
         {
-            Console.WriteLine(Role + " " + " årslön är " + Salary*12);
+            Console.WriteLine(Role + " " + FirstName + " " + LastName + "s årslön är: " + Salary*12 + "kr");
         }
         public override void PrintInfo()
         {
-            Console.WriteLine(FirstName + " " + LastName + " " + Role + " " + Salary);
+            Console.WriteLine("\n" + FirstName  + " " + LastName + ": " + Role + "\nMånadslön: " + Salary + "kr");
         }
     }
 }

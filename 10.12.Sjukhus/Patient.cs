@@ -46,11 +46,11 @@ namespace _10._12.Sjukhus
         }
         public void PatientStatus()
         {
-            Console.WriteLine(Role + " " + FirstName + " " + LastName + " " + Sickness + ": " + Status);
+            Console.WriteLine("Status för " + Role + " " + FirstName + " " + LastName + ": " + Status);
         }
         public override void PrintInfo()
         {
-            Console.WriteLine(FirstName + " " + LastName + " " + Role + " " + Sickness);
+            Console.WriteLine("\n" + FirstName + " " + LastName + ": " + Role + "\nInlagd pga: " + Sickness);
         }
     }
 }
